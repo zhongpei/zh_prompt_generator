@@ -9,8 +9,8 @@ from transformers import AutoProcessor
 from transformers import pipeline, set_seed
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-big_processor = AutoProcessor.from_pretrained("microsoft/git-base-coco")
-big_model = AutoModelForCausalLM.from_pretrained("microsoft/git-base-coco")
+big_processor = AutoProcessor.from_pretrained("microsoft/git-large-coco")
+big_model = AutoModelForCausalLM.from_pretrained("microsoft/git-large-coco")
 
 text_pipe = pipeline('text-generation', model='succinctly/text2image-prompt-generator')
 
