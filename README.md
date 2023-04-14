@@ -10,8 +10,12 @@ stable diffusion or midjourney , Chinese translation to English generated prompt
 
     # windows
     ./venv/Scripts/activate
-
-    pip install -r requirements.txt
+    
+    #  torch with gpu    
+    pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+    
+    # 
+    pip install --use-pep517 --upgrade -r requirements.txt
 ```
 
 ## run
