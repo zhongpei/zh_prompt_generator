@@ -1,7 +1,7 @@
 # zh_prompt_generator
 stable diffusion or midjourney , Chinese translation to English generated prompt
 
-[demo]([https://link-url-here.org](https://huggingface.co/spaces/hahahafofo/prompt_generator))
+[demo](https://huggingface.co/spaces/hahahafofo/prompt_generator)
 
 ## install
 ```
