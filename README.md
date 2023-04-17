@@ -1,6 +1,8 @@
 # zh_prompt_generator
 stable diffusion or midjourney , Chinese translation to English generated prompt
 
+！！！move [image2text_prompt_generator](https://github.com/zhongpei/image2text_prompt_generator)
+
 [demo](https://huggingface.co/spaces/hahahafofo/prompt_generator)
 
 ## install
