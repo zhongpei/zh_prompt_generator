@@ -1,6 +1,6 @@
 transformers==4.27.4
 torch==2.0.0
-gradio==3.24.1
+gradio==3.34.0
 sentencepiece==0.1.97
 sacremoses==0.0.53
 httpx[socks]
